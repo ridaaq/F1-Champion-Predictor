@@ -1,4 +1,4 @@
-**F1 Pitstop Champion Prediction**
+# F1 Pitstop Champion Prediction
 
 This repository contains a Python pipeline to predict Formula 1 season champions using pitstop and race data from 2018 to 2024. It covers data preprocessing, feature engineering, exploratory visualization, model training, and evaluation.
 
@@ -43,13 +43,12 @@ Predict which driver will become the Formula 1 World Champion next season by le
 ### 6. Exploratory Visualizations
 
 * **Correlation Matrix**: shows inter‑feature correlations
-
 * **Feature Importances** (Random Forest): top 10 predictive features
 
 ### 7. Feature Selection & Importances
 
 * Run `SelectKBest` (ANOVA F‑test) to score all features
-* Plot top‐features from a small Random Forest
+* Plot top‑features from a small Random Forest
 
 ### 8. Prepare ML Dataset
 
@@ -71,14 +70,6 @@ Predict which driver will become the Formula 1 World Champion next season by le
   * Accuracy & weighted F1 score
   * Classification report
   * Confusion matrix
-
-| Model               | Accuracy | F1 Score |
-| ------------------- | -------- | -------- |
-| Logistic Regression | 0.XXX    | 0.XXX    |
-| Random Forest       | 0.XXX    | 0.XXX    |
-| Naive Bayes         | 0.XXX    | 0.XXX    |
-| KNN                 | 0.XXX    | 0.XXX    |
-
 
 ### 10. Final Model & 2025 Prediction
 
